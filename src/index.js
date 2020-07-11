@@ -1,1 +1,1 @@
-export { default as MagicEightBall } from './magicEightBall'
+export { default as kevinsThoughtMachine } from './kevinsThoughtMachine'

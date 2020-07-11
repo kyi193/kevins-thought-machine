@@ -1,4 +1,4 @@
-import MagicEightBall, {
+import KevinsThoughtMachine, {
   YesResponse,
   PerhapsResponse,
   MaybeResponse,
@@ -12,7 +12,7 @@ import MagicEightBall, {
   IfFanOfThisMovieBadResponse,
   ThereIsHopeResponse,
   IDontKnow
-} from '../src/magicEightBall'
+} from '../src/kevinsThoughtMachine'
 const months = ['January',
   'February',
   'March',
@@ -256,20 +256,20 @@ describe('IDontKnow', () => {
   })
 })
 
-describe('MagicEightBall', () => {
-  const magic8Ball = new MagicEightBall()
-  const resultsKeys = Object.keys(magic8Ball.getResponse())
+describe('KevinsThoughtMachine', () => {
+  const kevinsThoughtMachine = new KevinsThoughtMachine()
+  const resultsKeys = Object.keys(kevinsThoughtMachine.getResponse())
   describe('constructor', () => {
     describe('this.response should be an object', () => {
-      expect(typeof magic8Ball.response).toBe('object')
+      expect(typeof kevinsThoughtMachine.response).toBe('object')
     })
     describe('this.response array length should be 13', () => {
-      expect(magic8Ball.response.length).toBe(13)
+      expect(kevinsThoughtMachine.response.length).toBe(13)
     })
   })
   describe('getResponse()', () => {
     test('getResponse() should be an object', () => {
-      expect(typeof magic8Ball.getResponse()).toBe('object')
+      expect(typeof kevinsThoughtMachine.getResponse()).toBe('object')
     })
     test('the key named answer should exist in getResults', () => {
       expect(resultsKeys.includes('answer')).toBe(true)
@@ -278,10 +278,10 @@ describe('MagicEightBall', () => {
       expect(resultsKeys.includes('index')).toBe(true)
     })
     test('getResponse().answer should return a string', () => {
-      expect(typeof magic8Ball.getResponse().answer).toBe('string');
+      expect(typeof kevinsThoughtMachine.getResponse().answer).toBe('string');
     })
     test('getResponse().index should return a number', () => {
-      expect(typeof magic8Ball.getResponse().index).toBe('number');
+      expect(typeof kevinsThoughtMachine.getResponse().index).toBe('number');
     })
   })
 })
