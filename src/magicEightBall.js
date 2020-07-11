@@ -256,7 +256,7 @@ export class IDontKnow {
   }
 }
 
-export class MagicEightBall {
+export default class MagicEightBall {
   constructor() {
     this.response = [
       YesResponse,

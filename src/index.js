@@ -1,4 +1,1 @@
-const tellMeTheMeaningOfLife = () => {
-  console.log("Kevin Diggity")
-}
-export default tellMeTheMeaningOfLife;
+export { default as MagicEightBall } from './magicEightBall'
