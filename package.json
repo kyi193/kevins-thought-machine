@@ -1,0 +1,24 @@
+{
+  "name": "@kyi193/kevins-thought-machine",
+  "version": "1.0.0",
+  "description": "Randomly return an answer for a yes or no question",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyi193/kevins-thought-machine.git"
+  },
+  "keywords": [
+    "kevins-thought-machine",
+    "eight",
+    "ball"
+  ],
+  "author": "Kevin Yi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyi193/kevins-thought-machine/issues"
+  },
+  "homepage": "https://github.com/kyi193/kevins-thought-machine#readme"
+}
