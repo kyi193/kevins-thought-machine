@@ -1,4 +1,4 @@
-import {
+import MagicEightBall, {
   YesResponse,
   PerhapsResponse,
   MaybeResponse,
@@ -10,10 +10,9 @@ import {
   IfThisHeightResponse,
   IfFanOfThisMovieGoodResponse,
   IfFanOfThisMovieBadResponse,
-  MagicEightBall,
   ThereIsHopeResponse,
   IDontKnow
-} from '../utils/magicEightBall'
+} from '../src/magicEightBall'
 const months = ['January',
   'February',
   'March',
