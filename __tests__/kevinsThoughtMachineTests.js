@@ -1,18 +1,18 @@
-import KevinsThoughtMachine, {
-  YesResponse,
-  PerhapsResponse,
-  MaybeResponse,
-  NotTodayResponse,
-  AskAgainLaterResponse,
-  BetterNotTellResponse,
-  OnThisMonthResponse,
-  IfNameStartsWithResponse,
-  IfThisHeightResponse,
-  IfFanOfThisMovieGoodResponse,
-  IfFanOfThisMovieBadResponse,
-  ThereIsHopeResponse,
-  IDontKnow
-} from '../src/kevinsThoughtMachine'
+import KevinsThoughtMachine from '../src/kevinsThoughtMachine'
+import AskAgainLaterResponse from '../src/responses/askAgainResponse'
+import BetterNotTellResponse from '../src/responses/betterNotTellResponse'
+import IDontKnow from '../src/responses/iDontKnow'
+import IfFanOfThisMovieBadResponse from '../src/responses/ifFanOfThisMovieBadResponse'
+import IfFanOfThisMovieGoodResponse from '../src/responses/ifFanOfThisMovieGoodResponse'
+import IfNameStartsWithResponse from '../src/responses/ifNameStartsWithResponse'
+import IfThisHeightResponse from '../src/responses/ifThisHeightResponse'
+import MaybeResponse from '../src/responses/maybeResponse'
+import NotTodayResponse from '../src/responses/notTodayResponse'
+import OnThisMonthResponse from '../src/responses/onThisMonthResponse'
+import PerhapsResponse from '../src/responses/perhapsResponse'
+import ThereIsHopeResponse from '../src/responses/thereIsHopeResponse'
+import YesResponse from '../src/responses/yesResponse'
+
 const months = ['January',
   'February',
   'March',
