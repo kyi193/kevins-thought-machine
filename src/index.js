@@ -1,1 +1,2 @@
-export { default as kevinsThoughtMachine } from './kevinsThoughtMachine'
+import KevinsThoughtMachine from './kevinsThoughtMachine'
+export default KevinsThoughtMachine
