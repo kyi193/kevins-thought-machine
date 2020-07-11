@@ -2,7 +2,10 @@
   "name": "@kyi193/kevins-thought-machine",
   "version": "1.0.0",
   "description": "Randomly return an answer for a yes or no question",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
   "scripts": {
     "build": "npx babel src --out-dir dist",
     "start": "npx babel src --watch --out-dir dist",
